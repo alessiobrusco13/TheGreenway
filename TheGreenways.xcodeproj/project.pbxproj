@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8977B9B22ACBF0700005BAAF /* TheGreenwaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977B9B12ACBF0700005BAAF /* TheGreenwaysApp.swift */; };
+		8977B9B42ACBF0700005BAAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977B9B32ACBF0700005BAAF /* ContentView.swift */; };
+		8977B9B62ACBF0710005BAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8977B9B52ACBF0710005BAAF /* Assets.xcassets */; };
+		8977B9B92ACBF0710005BAAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8977B9B82ACBF0710005BAAF /* Preview Assets.xcassets */; };
+		8977B9C02ACBF0990005BAAF /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977B9BF2ACBF0990005BAAF /* Transport.swift */; };
+		8977B9C52ACBF4C90005BAAF /* SandboxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977B9C42ACBF4C90005BAAF /* SandboxData.swift */; };
+		8977B9C72ACBF50B0005BAAF /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977B9C62ACBF50B0005BAAF /* Stop.swift */; };
+		8977B9C92ACBF59B0005BAAF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977B9C82ACBF59B0005BAAF /* Model.swift */; };
+		8977B9CB2ACC1C410005BAAF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977B9CA2ACC1C410005BAAF /* MapView.swift */; };
+		8977B9CD2ACC1E1F0005BAAF /* MapSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977B9CC2ACC1E1F0005BAAF /* MapSearchField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8977B9AE2ACBF0700005BAAF /* TheGreenways.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGreenways.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8977B9B12ACBF0700005BAAF /* TheGreenwaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGreenwaysApp.swift; sourceTree = "<group>"; };
+		8977B9B32ACBF0700005BAAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8977B9B52ACBF0710005BAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8977B9B82ACBF0710005BAAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8977B9BF2ACBF0990005BAAF /* Transport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		8977B9C42ACBF4C90005BAAF /* SandboxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxData.swift; sourceTree = "<group>"; };
+		8977B9C62ACBF50B0005BAAF /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		8977B9C82ACBF59B0005BAAF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8977B9CA2ACC1C410005BAAF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8977B9CC2ACC1E1F0005BAAF /* MapSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8977B9AB2ACBF0700005BAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8977B9A52ACBF0700005BAAF = {
+			isa = PBXGroup;
+			children = (
+				8977B9B02ACBF0700005BAAF /* TheGreenways */,
+				8977B9AF2ACBF0700005BAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8977B9AF2ACBF0700005BAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8977B9AE2ACBF0700005BAAF /* TheGreenways.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8977B9B02ACBF0700005BAAF /* TheGreenways */ = {
+			isa = PBXGroup;
+			children = (
+				8977B9B12ACBF0700005BAAF /* TheGreenwaysApp.swift */,
+				8977B9B32ACBF0700005BAAF /* ContentView.swift */,
+				8977B9CC2ACC1E1F0005BAAF /* MapSearchField.swift */,
+				8977B9CA2ACC1C410005BAAF /* MapView.swift */,
+				8977B9C82ACBF59B0005BAAF /* Model.swift */,
+				8977B9BF2ACBF0990005BAAF /* Transport.swift */,
+				8977B9C62ACBF50B0005BAAF /* Stop.swift */,
+				8977B9C42ACBF4C90005BAAF /* SandboxData.swift */,
+				8977B9B52ACBF0710005BAAF /* Assets.xcassets */,
+				8977B9B72ACBF0710005BAAF /* Preview Content */,
+			);
+			path = TheGreenways;
+			sourceTree = "<group>";
+		};
+		8977B9B72ACBF0710005BAAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8977B9B82ACBF0710005BAAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8977B9AD2ACBF0700005BAAF /* TheGreenways */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8977B9BC2ACBF0710005BAAF /* Build configuration list for PBXNativeTarget "TheGreenways" */;
+			buildPhases = (
+				8977B9AA2ACBF0700005BAAF /* Sources */,
+				8977B9AB2ACBF0700005BAAF /* Frameworks */,
+				8977B9AC2ACBF0700005BAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheGreenways;
+			productName = TheGreenways;
+			productReference = 8977B9AE2ACBF0700005BAAF /* TheGreenways.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8977B9A62ACBF0700005BAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8977B9AD2ACBF0700005BAAF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8977B9A92ACBF0700005BAAF /* Build configuration list for PBXProject "TheGreenways" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8977B9A52ACBF0700005BAAF;
+			productRefGroup = 8977B9AF2ACBF0700005BAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8977B9AD2ACBF0700005BAAF /* TheGreenways */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8977B9AC2ACBF0700005BAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8977B9B92ACBF0710005BAAF /* Preview Assets.xcassets in Resources */,
+				8977B9B62ACBF0710005BAAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8977B9AA2ACBF0700005BAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8977B9CB2ACC1C410005BAAF /* MapView.swift in Sources */,
+				8977B9B42ACBF0700005BAAF /* ContentView.swift in Sources */,
+				8977B9C52ACBF4C90005BAAF /* SandboxData.swift in Sources */,
+				8977B9C72ACBF50B0005BAAF /* Stop.swift in Sources */,
+				8977B9C92ACBF59B0005BAAF /* Model.swift in Sources */,
+				8977B9C02ACBF0990005BAAF /* Transport.swift in Sources */,
+				8977B9B22ACBF0700005BAAF /* TheGreenwaysApp.swift in Sources */,
+				8977B9CD2ACC1E1F0005BAAF /* MapSearchField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8977B9BA2ACBF0710005BAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8977B9BB2ACBF0710005BAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8977B9BD2ACBF0710005BAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheGreenways/Preview Content\"";
+				DEVELOPMENT_TEAM = 6N3WR99Z4W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessiobrusco.TheGreenways;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8977B9BE2ACBF0710005BAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TheGreenways/Preview Content\"";
+				DEVELOPMENT_TEAM = 6N3WR99Z4W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alessiobrusco.TheGreenways;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8977B9A92ACBF0700005BAAF /* Build configuration list for PBXProject "TheGreenways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8977B9BA2ACBF0710005BAAF /* Debug */,
+				8977B9BB2ACBF0710005BAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8977B9BC2ACBF0710005BAAF /* Build configuration list for PBXNativeTarget "TheGreenways" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8977B9BD2ACBF0710005BAAF /* Debug */,
+				8977B9BE2ACBF0710005BAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8977B9A62ACBF0700005BAAF /* Project object */;
+}
